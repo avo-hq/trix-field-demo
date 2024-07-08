@@ -7,6 +7,6 @@ class Avo::Resources::Post < Avo::BaseResource
   def fields
     field :id, as: :id
     field :title, as: :text
-    field :content, as: :trix
+    field :content, as: :trix, full_width: true, stacked: true
   end
 end

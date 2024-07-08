@@ -65,4 +65,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-gem "avo", ">= 3.2"
+# gem "avo", path: "/Users/adrian/work/avocado/gems/avo"
+gem "avo"

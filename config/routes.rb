@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: redirect("/avo")
+  resources :posts
 
   mount Avo::Engine, at: Avo.configuration.root_path
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
